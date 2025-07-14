@@ -1,0 +1,1 @@
+export { PlayerVM } from './ViewModels/PlayerVM';

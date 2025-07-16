@@ -13,6 +13,8 @@ export class PlayerVM extends Player {
 
     public isPlayingRef: ComputedRef<boolean> = computed(() => this._isPlayingRef.value)
 
+    public isVideoSeekingRef: ComputedRef<boolean> = computed(() => this._isVideoSeekingRef.value)
+
     public videoRef: ComputedRef<IVideo> = computed(() => this._videoRef.value)
 
     public volumeRef: ComputedRef<number> = computed(() => this._volumeRef.value)

@@ -3,7 +3,9 @@
 型を継承してリアクティブプロパティをいくつか追加しています。
 ## 使い方
 1. パッケージのインストール<br>
-`npm install vue-reactive-textalive`
+```
+npm install vue-reactive-textalive
+```
 2. 使用する型のインポート<br>
 ```javascript
 import { PlayerVM } from 'vue-reactive-textalive'
